@@ -1,8 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './store'; // Adjust the path as necessary
+import store from './store/store';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import TextInputWithSubmit from './components/TextInputWithSubmit'; // Adjust the path as necessary
 import About from './pages/About'; // Assume we have an About component
 import AddFood from './pages/AddFood';
 
